@@ -47,19 +47,19 @@ function HandSelected() {
   ];
 
   return (
-    <section className="w-full py-12 px-9 overflow-hidden mb-20">
+    <section className="w-full py-12 px-0 sm:p-4 lg:p-9 overflow-hidden mb-20 ">
       <Title title="Hand-Selected Masterpieces" cn="text-center mb-6" />
 
-      <div className="w-full mx-auto px-2">
+      <div className="w-full mx-auto px-1">
         <Slider {...settings}>
           {properties.map((property, index) => (
-                <div key={index} className="px-1.5">
-                           <div className="w-full">
-                <div className="w-full h-89.5 overflow-hidden rounded-xl">
-                    <img
+            <div key={index} className="px-1.5">
+              <div className="w-full">
+                <div className="w-full h-50 sm:h-80 lg:h-89 overflow-hidden rounded-xl">
+                  <img
                     src={property.image}
                     alt={property.title}
-                    className="w-full h-full object-cover"
+                    className="w-full h-full object-cover object-center "
                   />
                 </div>
 
