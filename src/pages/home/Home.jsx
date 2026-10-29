@@ -1,6 +1,6 @@
 import Hero from "../../components/Hero";
 import homeHero from "../../assets/images/homeHero.png";
-import Marks from "../../components/marks";
+import Marks from "../../components/Marks";
 import Title from "../../components/Title";
 import AboutSection from "../../components/AboutSection.jsx";
 import HandSelected from "../../components/HandSelected.jsx";
