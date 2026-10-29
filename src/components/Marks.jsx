@@ -1,6 +1,6 @@
 import React from "react";
 import Title from "./Title";
-import apartment from "../assets/icons/Apartment.png";
+import apartment from "../assets/icons/apartment.png";
 import streamline from "../assets/icons/streamline.png";
 import smileface from "../assets/icons/smileface.png";
 import star from "../assets/icons/star.png";
