@@ -1,3 +1,4 @@
+
 import Title from "./Title";
 
 import SliderImport from "react-slick";
@@ -19,7 +20,7 @@ function HandSelected() {
     infinite: true,
     speed: 500,
     slidesToShow: 3,
-    slidesToScroll: 2,
+    slidesToScroll: 3,
     arrows: true,
     autoplay: false,
   };
@@ -47,7 +48,7 @@ function HandSelected() {
   ];
 
   return (
-    <section className="w-full py-12 px-0 sm:p-4 lg:p-9 overflow-hidden mb-20 ">
+    <section className="w-full py-10 px-0 sm:p-4 lg:p-9 overflow-hidden mb-16">
       <Title title="Hand-Selected Masterpieces" cn="text-center mb-6" />
 
       <div className="w-full mx-auto px-1">
@@ -55,7 +56,7 @@ function HandSelected() {
           {properties.map((property, index) => (
             <div key={index} className="px-1.5">
               <div className="w-full">
-                <div className="w-full h-50 sm:h-80 lg:h-89 overflow-hidden rounded-xl">
+                <div className="w-full h-48 sm:h-64 lg:h-72 overflow-hidden rounded-xl">
                   <img
                     src={property.image}
                     alt={property.title}
@@ -63,7 +64,7 @@ function HandSelected() {
                   />
                 </div>
 
-                <h3 className="mt-4 text-base font-semibold text-black">
+                <h3 className="mt-3 text-sm sm:text-base font-semibold text-black">
                   {property.title}
                 </h3>
               </div>

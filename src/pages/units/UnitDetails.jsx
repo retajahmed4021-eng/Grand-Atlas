@@ -58,7 +58,7 @@ export default function UnitDetails() {
         <h3 className="text-xl font-bold p-2">Overview</h3>
         <p className="text-base sm:text-lg text-[#847D7D]">{unit.description_en}</p>
   <div className="flex flex-col sm:flex-row gap-2 mt-6 sm:mt-10">
-  <button className="w-full flex-1 h-12 rounded-md bg-[#8E1616] text-white flex items-center justify-center">
+  <button className="w-full flex-1 h-12 rounded-md bg-[#8E1616] text-white flex items-center justify-center transition ">
     Contact Via WhatsApp
   </button>
 
